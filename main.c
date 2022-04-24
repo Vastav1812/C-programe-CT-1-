@@ -6,7 +6,7 @@ int main (){
     printf("Enter Number of seats to be booked-");
     scanf("%d",&book);
     if (available>book){
-        printf("No. of shows available\n");
+        printf("No. of seats available\n");
         printf("1)1230 HRS\n2)1530 HRS\n3)1720 HRS\n4)2000 HRS\n5)2350HRS\n\n");
         int time;
         printf("Select Option for Required Time-");
